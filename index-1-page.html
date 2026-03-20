@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O.T.N.C</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">
+            <span>O</span><span>.</span><span>T</span><span>.</span><span>N</span><span>.</span><span>C</span>
+            <span> </span><span>S</span><span>t</span><span>o</span><span>r</span><span>e</span>
+        </h1>
+        <nav>
+            <div class="nav-item-1">
+                <i id="settingsBtn" class="fa-solid fa-gear"></i>
+                <a href="javascript:void(0)" id="open-settings" class="my-link" ></a>
+            </div>
+            <div class="nav-item-2">
+                <i id="profileBtn" class="fa-solid fa-circle-user" ></i>
+                <a href="index-2-page.html" class="profile-icon-link"></a>
+            </div>
+        </nav>
+        <div id="settings-window" class="hidden-window">
+                <span id="closeBtn">✖</span>
+            <h4 data-i18n="language">Language</h4>
+            <div id="language-all">
+           <label id="Albania">Albania
+            <input type="radio" name="lang" value="sq">
+           </label><br>
+           <label id="English">English
+            <input type="radio" name="lang" value="en">
+           </label><br>
+           <label id="French">French
+            <input type="radio" name="lang" value="fr">
+           </label><br>
+           <label id="Italian">Italian
+            <input type="radio" name="lang" value="it">
+           </label><br>
+           </div>
+        </div>
+    </header>
+
+    <div class="main-section">
+        <div class="text"></div>
+        <p class="welcoming" data-i18n="welcome">
+            Welcome to my Online Shoping, here you will find two completely
+            different lifestyles. For more, it's up to you to discover.
+            You know,<b>Old Town New City</b>
+        </p>
+    </div>
+
+    <div class="container">
+        <h2 data-i18n="choose_outfit">Choose Your Outfit</h2>
+        <div class="btn-wrapper">
+            <button class="glowing-border-btn">
+                <span class="btn-content" data-i18n="old_money">Old Money</span>
+            </button>
+            <button class="glowing-border-btn">
+                <span class="btn-content" data-i18n="urban_style">Urban style</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="block-information">
+        <div class="camera"></div>
+    </div>
+    <div class="shadow"></div>
+
+    <footer>
+        <p data-i18n="footer">&copy; 2024 O.T.N.C. From Duleo Vila.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
